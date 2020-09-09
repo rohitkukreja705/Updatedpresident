@@ -1,0 +1,105 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background-size:cover;
+	background-image: linear-gradient(to right, orange, white, green);
+}
+.row{
+	display: flex;
+}
+.head{
+	position: relative;
+margin-top:20px;
+text-align: center; 
+border-bottom:2px solid;
+width: 40%; 
+height: 7vh;
+box-shadow: 2px 2px 2px black;
+}
+
+
+p{
+	font-size: 20px;
+	text-align: center;
+	font-family: comic sans ms;
+	border:5px;
+	line-height: 50px;
+	font-style: italic;
+}
+img{
+	width:200px;
+	height: 200px;
+	margin: 20px;
+	box-shadow: 2px 3px 0px transparent;
+}
+.link{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	top:20px;
+	right:20px;
+	font-size: 30px;
+	color: white;
+}
+.left{
+margin-top: 50px;
+height: 300px;
+} 
+
+.size{
+	height: 100%;
+}
+b{
+	text-align: left;
+}
+.column {
+
+  float: left;
+  padding: 10px;
+  height: 100%; 
+}
+
+.lef, .right {
+position: relative;
+ width: 20%;
+}
+
+.middle {
+text-align: center;
+width: 60%;
+}
+
+button{
+	outline: none;
+	border:none;
+	margin: 15px;
+	width: 90%;
+	height: 40px;
+	font-size: 1.6vw;
+	font-family: italic;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, orange , white , green );
+}
+button:hover{
+	border: 2px solid white; 
+}
+.me{
+	height: 40px;
+	background-image: linear-gradient(to right, lightblue, lightgreen, lightyellow);
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: Georgia;
+}
+iframe{
+  width: 100%;
+  height: 50vh;
+}
+h1{
+	font-size: 2.8vw;
+}
